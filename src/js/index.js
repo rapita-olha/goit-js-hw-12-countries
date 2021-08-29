@@ -66,11 +66,6 @@ function clearMarkup() {
   refs.countryContainer.innerHTML = '';
 }
 
-// function onError() {
-//   alert('Что-то пошло не так(');
-//   clearMarkup();
-// }
-
 function onTooManyMatchesFound() {
   noticeIsActive = true;
 
