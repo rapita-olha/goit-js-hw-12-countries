@@ -1,0 +1,77 @@
+body {
+  background-image: url(./images/world-67861.png);
+}
+
+.page-title {
+  margin-top: 200;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: rgb(3, 1, 14);
+}
+
+#query-input {
+  display: block;
+  padding: 10px 20px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  min-width: 400px;
+  min-height: 50px;
+  font-size: 20px;
+  background-color: white;
+  color: rgb(1, 0, 8);
+  border: 2px solid rgb(1, 0, 8);
+}
+
+.country__container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.country__info {
+  min-width: 300px;
+}
+
+.country__name,
+.country__capital,
+.country__population,
+.country__languages {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.country__name {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.countries__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.country__capital--text-content,
+.population--text-content {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(1, 0, 8);
+}
+
+.country__lang-list,
+.countries__list {
+  list-style: none;
+}
+
+.countries__list {
+  font-size: 25px;
+}
+
+.country__lang-item {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(1, 0, 8);
+}
+
+.country__lang-item:not(:last-child) {
+  margin-bottom: 10px;
+}
