@@ -76,7 +76,7 @@ function onTooManyMatchesFound() {
   notice({
     type: 'notice',
     text: 'Too many matches found. Please enter a more specific query!',
-    styling: 'pinktheme',
+    styling: 'pinctheme',
     mode: 'dark',
     modules: new Map([
       [
